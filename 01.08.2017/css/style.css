@@ -1,0 +1,51 @@
+.sosial{
+    font-size: 30px;
+    border: 5px solid #4CAF50;
+    border-radius: 100%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 54px;
+    text-align: center;
+    color: #4CAF50;
+    margin: 0 auto;
+}
+.sosial::before{
+    content: "";
+    position: absolute;
+    border: 5px solid #4CAF50;
+    right: 0px;
+    top: 0px;
+    border-radius: 100%;
+}
+.sosial::after{
+    content: "";
+    position: absolute;
+    border: 5px solid #4CAF50;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 100%;
+}
+.sosial:hover::afret{
+    font-size: 30px;
+    border: 5px solid #4CAF50;
+    border-radius: 100%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 54px;
+    text-align: center;
+    color: #4CAF50;
+    margin: 0 auto;
+}
+/*.sosial:hover{
+    font-size: 30px;
+    border: 5px solid #4CAF50;
+    border-radius: 100%;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 54px;
+    text-align: center;
+    color: #4CAF50;
+margin: 0 auto;}*/
